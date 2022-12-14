@@ -45,6 +45,6 @@ public class Products {
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return String.format("%s - %f", name, price);
+        return String.format("%s - %.2f", name, price);
     }
 }

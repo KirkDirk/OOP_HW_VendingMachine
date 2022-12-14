@@ -20,7 +20,7 @@ public class Groats extends Products {
 
     @Override
     public String toString() {
-        return "Groats [capacity=" + capacity + ", quality=" + quality + "]";
+        return "Groats - " + super.getName() + "[capacity=" + capacity + ", quality=" + quality + "]";
     }
     
     

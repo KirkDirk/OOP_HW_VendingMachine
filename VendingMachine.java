@@ -73,5 +73,6 @@ public class VendingMachine {
                 result.add(i);
         });
         return result;  
+    }
 
 }
