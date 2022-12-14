@@ -39,5 +39,12 @@ public class Products {
      */
     public double getPrice() {return price;}
 
-
+    /**
+     * Переопределяем тустринг для вывода параметров "продукта"
+     */
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return String.format("%s - %f", name, price);
+    }
 }
